@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 
-export default function Navbar({darkMode}) {
+export default function Navbar({darkMode, setDarkMode}) {
   return (
     <div className={darkMode ? 'navbar navbar-dark' : 'navbar navbar-light'}>
       Where in the world?

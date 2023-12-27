@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className={darkMode ? 'app app-dark' : 'app app-light'}>
-      <Navbar darkMode={darkMode}/>
+      <Navbar darkMode={darkMode} setDarkMode={setDarkMode}/>
 
       <div className={darkMode? 'filters filters-dark' : 'filters filters-light'}>
         <button className={darkMode ? 'search-btn dark' : 'search-btn light'}>
